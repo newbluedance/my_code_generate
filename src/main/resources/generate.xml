@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<GeneratorConfiguration>
+    <jdbc>
+      <!-- <url>jdbc:mysql://47.94.140.48:3306/i_base_study?useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC&amp;allowMultiQueries=true&amp;rewriteBatchedStatements=true</url>
+        <userName>root</userName>
+        <passWord>hdtd1qaz@develop</passWord>-->
+
+        <url>jdbc:mysql://localhost:3306/cd_wj_new?useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC&amp;allowMultiQueries=true&amp;rewriteBatchedStatements=true</url>
+        <userName>root</userName>
+        <passWord>320145</passWord>
+    </jdbc>
+
+    <baseInfo>
+        <author>lichunfeng</author>
+       <!-- <projectPath>C:\work_space\hwaview_workSpace\irest_build\irest-base-build\irest-base-build\src\main\java\</projectPath>
+        <modulePath>com\hdtd\ibasebuild\business</modulePath>-->
+        <projectPath>C:\work_space\hwaview_workSpace\net_view_2.0\net-adv-view\src\main\java\</projectPath>
+        <modulePath>com\hdtd\netview\business</modulePath>
+    </baseInfo>
+
+    <modelList>
+        <model>
+            <entityName>AdvLine</entityName>
+            <tableName>adv_line</tableName>
+        </model>
+
+    </modelList>
+
+
+</GeneratorConfiguration>
